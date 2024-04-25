@@ -1,0 +1,215 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+ul{
+	list-style:none;
+}
+
+a:link,
+a:visited{
+	text-decoration:none;
+}
+
+
+.text-right{
+	text-align:right;
+	
+}
+
+.text-centre{
+	text-align:center;
+}
+
+
+.text-uppercase{
+	text-transform:uppercase;
+}
+
+.Container{
+	width:1180px;
+	margin : 0 auto;
+	
+}
+
+.row{
+	display:table;
+	clear:both;
+	width:100%;
+	
+}
+
+[class^="col-"]{
+	float:left;
+	padding:0 15px;
+	
+}
+
+
+
+.mb-70{
+	margin-bottom:70px;
+}
+
+.mt-70{
+	margin-bottom:70px;
+}
+
+.pri-heading{
+	color:#010101;
+	font-weight:bold;
+	font-size:32px;
+	margin-bottom:20px;
+	
+}
+
+.sec-heading{
+	color:#313841;
+	font-weight:regular;
+	font-size:20px;
+	margin-bottom:25px;
+	
+}
+
+
+.para{
+	color:#555555;
+	font-weight:lighter;
+	font-size:16px;
+	margin-bottom:40px;
+	
+	
+}
+
+.header{
+	background-color:#fcdb00;
+	padding:55px 0 100px;
+}
+
+
+.logo{
+	display:inline-block;
+}
+
+.navbar ul{
+	display:inline-block;
+	
+	
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin-left:18px;
+}
+
+.navbar ul a{
+	padding:12px 18px;
+	color:#010101;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:capitalize;
+	display:inline-block;
+	line-height:47px;
+	
+}
+
+
+.brandlinks li{
+	display:inline-block;
+	margin-right:40px;
+	
+	
+}
+
+.brandlinks li a{
+	color:black;
+}
+
+
+.brandlinks li a i{
+	font-size:40px;
+}
+
+.inspiration{
+	padding:120px 0 160px;
+}
+
+.thumbnail{
+	margin-bottom:85px;
+}
+
+.footer{
+	background-color:black;
+	color:white;
+	padding:95px 0 135px;
+}
+
+
+.footer .pri-heading{
+	color:yellow;
+	
+}
+
+.footer .sec-heading{
+	color:#898989;
+	
+}
+
+.email, .submitbtn{
+	height:50px;
+	border:0px;
+	border-radius:5px;
+	outline:none;
+}
+
+.email{
+	width:calc(100% - 160px);
+	padding:0 25px;
+}
+
+
+.submitbtn{
+	cursor:pointer;
+	width:125px;
+	margin-left:20px;
+	background-color:yellow;
+	color:black;
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:700;
+	border:2px solid #fbdb00;
+	transition:color .4s ease-in-out;
+	transition:all .4s ease-in-out;
+}
+
+.submitbtn:hover,
+.submitbtn:focus,
+.submitbtn:active{
+	color:#fbdb00;
+	background-color:black;
+}
+
+.footer .brandlinks li a{
+	color:#fbdb00;
+	
+}
+
+.brandlinks{
+	text-align:center;
+}
+
+.footerLinks a:link,
+.footerLinks a:visited,
+.footerLinks li{
+	color:white;
+	font-style:normal;
+}
+
+
